@@ -1,0 +1,1736 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Two Times of Dance</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="../resource/image/favicon-16x16.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/b3330d82de.js" crossorigin="anonymous" defer></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" defer></script>
+  <script src="../static/js/menu.js" defer></script>
+
+  <script src="../static/js/form.js" defer></script>
+
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/media.css' %}">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+
+      <div class="first_page" id="HOME">
+        <div class="page">
+          <div id="first-page-img-girl-div">
+            <img data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" id="img-girl"
+              src="../resource/image/home-mit-punkte 1.png" alt="">
+          </div>
+
+          <div class="head">
+            <div class="div-burger">
+              <span></span>
+            </div>
+            <img id="logo-img" src="../resource/image/headlogo.png" alt="logo">
+            <div class="links-head">
+              <div class="links" id="padding-links">
+                <p class="links-head-js"> <a class="white" href="">Главная</a> </p>
+                <p class="links-head-js"> <a href="#ÜBER UNS">О нас</a> </p>
+                <p class="links-head-js"> <a href="#AKTUELL">Новости</a> </p>
+                <p class="links-head-js"> <a href="#STUNDENPLAN">Расписание</a> </p>
+                <p class="links-head-js"> <a href="#VERMIETUNG">Сдача в аренду</a> </p>
+                <p class="links-head-js"> <a href="#IMPRESSUM">Контакт</a> </p>
+              </div>
+              <div class="media">
+                <p class="tel">+49 (0) 15772000882 </p>
+                <div class="menu-div">
+                  <p class="znak-red links-head-js"> <a target="_blank"
+                      href="https://www.instagram.com/twotimesofdance/?hl=de"><i
+                        class="fa-brands fa-instagram fa-lg"></i></a> </p>
+                  <p class="znak-red links-head-js"> <a target="_blank"
+                      href="https://www.facebook.com/TwoTimesofDance/">
+                      <i class="fa-brands fa-facebook-f fa-lg"></i>
+                    </a></p>
+                </div>
+                <p class="white translate links-head-js"> <a style="text-decoration: none;" href="{% url 'home' %}">DE</a> </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div data-aos="fade-up" data-aos-duration="1000" class="text-head">
+            <p id="title-text">НАША ШКОЛА</p>
+            <p class="pustoi-text">с нами ты научишься танцевать в своё удовольствие и работать на результат!</p>
+            <p id="info-text">Группы Maxi, Mini, Kids и Babys составляют основу коллектива нашей танцевальной школы,
+              которая принимает участие в конкурсах и чемпионатах на региональном, национальном и международном уровнях
+              и состоит из 70 детей/молодежи в возрасте от 6 до 16 лет.
+              <br><br>
+              Школа была основана в 2014 году Яной (дипл. преподаватель танцев и гимнастики) и Вячеславом Тараник (дипл.
+              преподаватель, хореограф), которые также являются тренерами школы. Школа уже смогла завоевать множество
+              наград и титулов как на региональном, так и международном уровне и продолжает участвовать в различных
+              соревнованиях.
+            </p>
+            <a href="#SCHREIBEN">
+              <div class="button1">Задай нам вопрос</div>
+            </a>
+
+          </div>
+
+          <div class="menu-div-2">
+            <div class="menu">
+              <div id="red-rectangle-menu"></div>
+              <p>
+                "Two Times of Dance" <br>
+                Otto - Hahn-Str. 6 <br>
+                40721 Hilden <br>
+                <br><br>
+                +49 (0) 15772000882 <br>
+                <a href="mailto:twotimeofdance@web.de" target="_blank"
+                  rel="noopener noreferrer">twotimeofdance@web.de</a> <br>
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="second-page" id="ÜBER UNS" style="background-image: url('../resource/image/bg2.png')">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" id="title-fraza">
+          ЧТО МЫ ТАНЦУЕМ</div>
+        <div class="first-row">
+          <div data-aos="fade-up">
+            <p class="red-title">ДЕТСКИЙ ТАНЕЦ</p>
+            <p class="dance-text">Начиная уже с двухлетнего возраста, дети в игровой форме обучаются движению под
+              разнообразные ритмы и
+              знакомятся с различными музыкальными стилями и направлениями. В процессе этого развивается осознанность в
+              отношении собственного тела и формируется чувство ритма.</p>
+          </div>
+          <div data-aos="fade-up">
+            <p class="red-title">ФОЛЬКЛОР</p>
+            <p class="dance-text">Народный или фольклорный бытовой танец — это танец, который исполняется на
+              традиционных фольклорных праздниках и имеет определённые традиционные для данной местности движения,
+              ритмы, костюмы и тому подобное. Он встречаются практически во всех культурах и наряду с народной музыкой
+              составляют неразрывное целое.</p>
+          </div>
+          <div data-aos="fade-up">
+            <p class="red-title">ХАРАКТЕР</p>
+            <p class="dance-text">Характерный танец – это разновидность сценического танца, основанный на народных
+              танцах и обобщённо передающий стиль и дух национальной хореографии. Включая элементы народного танца,
+              отличается от него тем, что ориентирован не на собственно фольклорные образцы, а на сложившуюся традицию
+              их театральной обработки в рамках условных представлений о «характере» той или иной нации.</p>
+          </div>
+
+          <div data-aos="fade-up">
+            <p class="red-title">ХИП-ХОПP</p>
+            <p class="dance-text">Хип-хоп не является отдельным танцевальным стилем, он состоит из множества стилей.
+              Культура хип-хопа развивалась в более бедных районах крупных американских городов. Афроамериканская и
+              пуэрториканская молодежь изобрела новый стиль музыки: хип-хоп. Так называемые ди-джеи играли новую музыку
+              на улицах. Таким образом, различные танцевальные стили, такие как брейк-данс, поппинг, локинг и многие
+              другие, сначала исполнялись на улице и не имели установленных правил. Их и по сей день называют уличными
+              танцами.</p>
+          </div>
+          <div data-aos="fade-up">
+            <p class="red-title">БАЛЕТ</p>
+            <p class="dance-text">Классический балет - это особая форма сценического танца и самостоятельная форма
+              искусства. Танцоры рассказывают историю своими движениями или выражают определенное настроение или
+              чувство. Танцевальные па собраны в хореографию, заданную последовательность шагов, что помогает передать
+              историю. Классическая музыка, декорации и одежда обычно поддерживают танцевальную технику и художественное
+              самовыражение танцоров.</p>
+          </div>
+          <div data-aos="fade-up">
+            <p class="red-title">СОВРЕМЕННЫЙ</p>
+            <p class="dance-text">Современный танец является эволюционным развитием классического балета. Взяв за основу
+              классические элементы, хореографы и танцоры их перерабатывают, изменяют, постоянно развивая и
+              совершенствуя выразительность и эмоциональность. Соединение Старого и Нового создают не только обилие
+              направлений и стилей, но также выразительную, завораживающую смесь.</p>
+          </div>
+          <div data-aos="fade-up">
+            <p class="red-title">ДЖАЗ</p>
+            <p class="dance-text">Движения из ревю и мюзикла перетекают в хореографию. Многогранный джазовый танец то
+              лиричен, то артистичен. Он может содержать элементы современного танца или театрального джаза. Акцент
+              делается на веселье с ритмом и движением.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="third-page">
+        <div id="fraze-third-page">ГРУППЫ</div>
+        <div class="box-third-page">
+          <div data-aos="fade-right" class="row-third-page">
+            <div class="div-row-third-page">
+              <img class="img-third-page" src="../resource/image/gruppen/gruppen-babys-350x269.jpg" alt="">
+              <div class="top">
+                <p class="zagolovok-third-page">BABYS</p>
+                <p class="text-third-page">Наши «малыши» выступают в категории 6-8 лет.
+                  Их дебютом стал танец «Миньоны» в 2021 году на конкурсе «German Open” в городе Кастроп, где они смогли
+                  завоевать свое первое призовое третье место.
+                  С тех пор группа взяла много призов и наград на различных конкурсах.
+
+                  <br><br>
+                  Время тренировок: <br>
+                  Mo.16.00 – 17.30 <br>
+                  Do. 16.00 – 17.30
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div data-aos="fade-right" class="row-third-page kakaito-neponiatnii-otstup">
+            <div class="div-row-third-page">
+              <img class="img-third-page" src="../resource/image/gruppen/gruppen-minis-350x269.jpg" alt="">
+              <div>
+                <p class="zagolovok-third-page">MINIS</p>
+                <p class="text-third-page">
+                  Группа от 8 до 10 лет - это наши "Minis".
+                  Несмотря на свой малый возраст, группа участвовала в многочисленных конкурсах и чемпионатах, в том
+                  числе таких как "German Open", Bergische Tanztage, Duisburger Tanztage, Neue Welle и завоевала
+                  множество мест и кубков.
+
+                  <br><br>
+                  Время тренировок: <br>
+                  Mo.17.30 – 19.00 <br>
+                  Di. 17.00 – 18.30 <br>
+                  Do. 17.00 – 18.30
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div data-aos="fade-right" class="row-third-page kakaito-neponiatnii-otstup-2">
+            <div class="div-row-third-page">
+              <img class="img-third-page" src="../resource/image/gruppen/gruppen-midi-350x269.jpg" alt="">
+              <div>
+                <p class="zagolovok-third-page">MIDI</p>
+                <p class="text-third-page">
+                  От 10-12 - это наш Midi
+                  Они завоевали множество
+                  мест и призов на различных соревнованиях по тазу ( Нидерланды, Бельгия, Австрия, Германия) в
+                  2022,2023.
+
+                  <br><br>
+                  Время тренировок: <br>
+                  Mi.17.00 – 19.00 <br>
+                  Fr. 17.00 – 19.00 <br>
+                  Sa. 10.00 – 12.00
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div data-aos="fade-right" class="row-third-page">
+            <div class="div-row-third-page">
+              <img class="img-third-page" src="../resource/image/gruppen/gruppen-maxi-350x269.jpg" alt="">
+              <div class="top">
+                <p class="zagolovok-third-page">MAXI</p>
+                <p class="text-third-page">
+                  В этой группе занимаются дети 10-14 лет. За годы тренировок они накопили большой опыт участия в
+                  различных танцевальных конкурсах как в Германии, так и за рубежом. Они завоёвывали первые места в
+                  Латвии, Чехии, Дуйсбурге, Виттене, Вуппертале, Кастропе, Херне, Хюрте и Мюнхене. Благодаря
+                  разносторонней подготовке группа «Макси» представляет танцы в самых разных категориях, включая
+                  народный танец, джаз и модерн.
+
+                  <br><br>
+                  Время тренировок: <br>
+                  Di.18.30 – 20.00 <br>
+                  Do. 17.30 – 20.00 <br>
+                  Sa. 10.00 – 12.00
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div data-aos="fade-right" class="row-third-page">
+            <div class="div-row-third-page">
+              <img class="img-third-page" src="../resource/image/gruppen/gruppen-hiphop-350x269.jpg" alt="">
+              <div class="top">
+                <p class="zagolovok-third-page">HIP-HOP</p>
+                <p class="text-third-page">
+                  "Hip - Hop" - это наша группа детей от 10 до 15 лет.
+                  Дети пока смогли принять участие не в столь многих конкурсах. Несмотря на это в мае 2018 группа взяла
+                  третье место на конкурсе "Neue Welle-Tanzwettbewerb" в г.Дуйсбург. Мы очень гордимся ими!
+
+                  <br><br>
+                  Время тренировок: <br>
+                  Mo.18.30 – 20.00 <br>
+                  Fr. 19.00 – 20.30
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div data-aos="fade-right" class="row-third-page">
+            <div class="div-row-third-page">
+              <img class="img-third-page" src="../resource/image/gruppen/gruppen-maxiplus-350x269.jpg" alt="">
+              <div class="top">
+                <p class="zagolovok-third-page">MAXI +</p>
+                <p class="text-third-page">
+                  В группе ребята от 16 до 20 лет.
+                  Нашу молодежь обучают коммерческим и уличным танцам. Группа регулярно участвует в нескольких
+                  Участник соревнований.
+                  В 2022 году они заняли 1-е место на танцевальном конкурсе в Австрии.
+
+                  <br><br>
+                  Время тренировок: <br>
+                  Do.18.30 – 20.00
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="fourth-page">
+        <div data-aos="fade-right" id="title-fraze-fouth-page">Учителя</div>
+        <div class="box-fourth-page">
+          <div data-aos="fade-up" data-aos-duration="2500">
+            <div class="div-img-third-page">
+              <img class="img-teachers" src="../resource/image/teacher/image 3.png" alt="">
+              <img class="red-rect" src="../resource/image/teacher/Rectangle 5 (1).png" alt="">
+            </div>
+
+            <div>
+              <p class="name-teachers">ЯНА <br> ТАРАНИК</p>
+              <p class="text-fourth-page">Учитель танцев,учитель
+                гимнастики <br><br>
+                Учеба: <br>
+                2000-2005 Государственная академия культуры и искусств, Кемерово/Россия
+                <br><br>
+                Образование: <br>
+                2011-2014 Гимнастическая школа Вебер-Шуле/Дюссельдорф
+                <br><br>
+                Другие квалификации: <br>
+                1988-1998 Художественная гимнастика, Кемерово/ Россия
+                <br><br>
+                Профессиональная карьера: <br>
+                Танцовщица в Кемеровской городской филармонии / Россия Учитель танцев,
+                гимнастики,
+                ассоциация/Дюссельдорф
+                <br><br>
+                Практика преподавания в: <br>
+                Классический балет по методике Вагановой,
+                Элементарный детский танец, Фольклор, Характерный танец, Джаз, Модерн, Гимнастикаk
+              </p>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="div-img-third-page">
+              <img class="img-teachers" src="../resource/image/teacher/image 3.png" alt="">
+              <img class="red-rect" src="../resource/image/teacher/Rectangle 5 (1).png" alt="">
+            </div>
+            <div>
+              <p class="name-teachers">ВЯЧЕСЛАВ <br> ТАРАНИК</p>
+              <p class="text-fourth-page">
+                Учитель танцев, хореограф
+                <br><br>
+                Образование: <br>
+                1987 - 1990 Учебное заведение культуры Сарканд/Казахстан
+                <br><br>
+                Учеба: <br>
+                1990 - 1995 Государственный институт искусства и культуры, Кемерово / Россия
+                <br><br>
+                Профессиональная карьера: <br>
+                Артистка балета танцевального ансамбля "Сибирский кайдоскоп“, преподаватель танцев, руководитель
+                танцевальной студии
+                “Эйли " Кемерово/Россия Педагог дополнительного образования, Государственное образовательное учреждение
+                дополнительного
+                образования, Кемерово/ Россия
+                <br><br>
+                Практика преподавания в: <br>
+                Джаз, модерн, фольклор, характерный танец
+              </p>
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1500">
+            <div class="div-img-third-page">
+              <img class="img-teachers" src="../resource/image/teacher/image 3.png" alt="">
+              <img class="red-rect" src="../resource/image/teacher/Rectangle 5 (1).png" alt="">
+            </div>
+            <div>
+              <p class="name-teachers">КРИСТИНА <br> МОРОСТ</p>
+              <p class="text-fourth-page">
+
+                Педагог по танцам <br><br>
+                Образование: <br>
+                2009-2011 Гимнастическая школа Вебер-Шуле /Дюссельдорфская школа сценического танца 2011-2015
+                Пергель-Эрнст/Дюссельдорф
+                <br><br>
+                Знания: Участвовать в конкурсах 6 лет в „ансамбле" Танцор в
+                Шоу-танцевальная группа занимается постановкой мюзиклов "Атлантида“, „Золушка“, "Сон в летнюю ночь" 2015
+                -
+                2016 Участие в танцевальных и балетных конкурсах (Хюрт, Херне, Дуйсбург, Вупперталь,
+                Мюнхен,
+                Джерси) С 2015 года Преподаватель танцев в школе танца "Два раза танца
+                " <br><br>
+                Педагогическая практика: <br>
+                Классический балет по методике Вагановой, Элементарный детский танец, Фольклор,
+                Характерный танец,
+                Джаз, Современность, Модерн, Хип-хоп / Джазовое радио для детей, Коммерческий
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fifth-page" id="AKTUELL">
+        <img class="girl-fifth-page" src="../resource/image/Group 1 (1).png" alt="">
+
+
+        <div data-aos="fade-right" id="title-fraza-fifth-page">Новости</div>
+        <div class="conteiner-fifth-page">
+          <div data-aos="fade-down-right" class="div-fifth div-fifth-1">
+            <p class="pustoi-text-fifth-page">
+              УСПЕШНОЕ ВЫСТУПЛЕНИЕ В ОБЕРХАУЗЕНЕ
+            </p>
+            <p class="text-fifth-page">
+              Отличные места, награды и даже специальный приз завоевала наша танцевальная школа в марте на Открытом
+              чемпионате Германии в
+              Оберхаузене!
+              <br><br>
+              Конкурс является одним из самых престижных танцевальных мероприятий в Германии в области сценического
+              танца.
+              <br><br>
+              Несмотря на сильную конкуренцию, наши танцовщицы добились 2 больших успехов, в том числе двух первых мест
+            <ul class="black-li">
+              <li>Группа МАКСИ с „Цыганским танцем" в категории Национальный танец, трио и</li>
+              <li>Группа Макси+ с танцем "Танец и ярость“ в категории Коммерческий танец, группа</li>
+            </ul>
+            Кроме того, три занявших вторые места попали в следующие группы:
+            <br><br>
+            <ul class="black-li">
+              <li>Мини-группа с танцем „Funny Girls" (открытый, трио);</li>
+              <li>Мини-группа с „Попугаями" (открытая, группа);</li>
+              <li>Группы Midi+Maxi с „Monkey" (открыть, группа).</li>
+            </ul>
+            Кроме того, наша школа получила специальный приз за лучший <br> костюм (мини-группа „Веселые девочки“).
+            <br><br>
+            Мы хотели бы выразить наши аплодисменты и огромное уважение всем нашим танцовщицам!
+            </p>
+            <a href="#SCHREIBEN">
+              <div class="button-fifth-page">Задай нам вопрос</div>
+            </a>
+
+          </div>
+          <div data-aos="fade-up-right" class="div-fifth">
+
+          </div>
+
+          <div class="accordion" id="accordionExample" data-aos="fade-down">
+            <div class="card">
+              <div class="card-header c2" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed btn2" type="button" data-toggle="collapse"
+                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="boot-but-red">
+
+                    Летние каникулы
+
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p class="text-fifth-page">
+                    Дорогие школьники,
+                    <br><br>
+                    в период с 26 июня по 06 августа 2023 года в нашей танцевальной школе пройдут летние каникулы. Это
+                    один из
+                    Время,
+                    когда мы сможем прийти в себя и зарядиться энергией, чтобы вернуть вас к
+                    полноценному отдыху после праздников
+                    Быть способным предлагать уроки с энергией и радостью. Во время курортного сезона регулярные занятия
+                    не
+
+                    проводятся. Мы просим вас учитывать это при планировании своих танцевальных мероприятий.
+                    <br><br>
+                    Мы надеемся, что вам также понравятся летние каникулы, и мы скоро
+                    снова встретимся, чтобы
+                    потанцевать вместе. Мы с нетерпением ждем возможности поприветствовать всех вас в нашей танцевальной
+                    школе после каникул!
+                    А пока мы желаем вам чудесного лета
+                    <br><br>
+                    С наилучшими пожеланиями,
+                    <br><br>
+                    Ваши Two Time Of Dance
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header c1" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link btn1" type="button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne" id="boot-but-red">
+                    АРЕНДА ПОМЕЩЕНИЯ
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+
+                  Наша школа танцев предлагает наши помещения в аренду. Просторные залы идеально
+                  подходят для индивидуальных тренировок, занятий йогой и пилатесом, а также других спортивных
+                  мероприятий.
+                  Но их также можно арендовать для проведения семинаров, торжеств и других мероприятий.
+                  <br><br>
+                  Залы оснащены всем необходимым для вашей тренировки или мероприятия,
+                  включая зеркала, аудиосистему, спортивное оборудование.
+                  <br><br>
+                  Наша команда будет рада помочь вам в организации вашего мероприятия и предоставить
+                  подробную информацию о доступных помещениях, условиях аренды и стоимости.
+                  <br><br>
+                  Мы гарантируем вам, что наши помещения станут отличным выбором для тех, кто
+                  ищет удобное и практичное место для занятий спортом, празднования
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sixth-page" id="STUNDENPLAN" style="background-image: url('../resource/image/bg6.png')">
+        <div id="title-fraza-sixth-page" data-aos="zoom-in-right">РАСПИСАНИЕ</div>
+        <div class="stundenplan-cont-grid">
+          <div class="stundenplan-d mo">
+            <p data-aos="fade-up">Пн</p>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              16.00 – 17.00 <br>
+              5 – 6 J. <br>
+              Kindertanz <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              16.00 – 17.30 <br>
+              6 – 8 J <br>
+              Gymnastik, Showtanz <br>
+              Wettbewerbsgruppe <br>
+              Jana
+            </div>
+            <div data-aos="fade-up">
+              17.00 – 18.30 <br>
+              7 – 11 J. <br>
+              Kindertanz, Jazz, Show <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              17.30 – 19.00 <br>
+              8 – 10 J. <br>
+              Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up">
+              18.30 – 20.00 <br>
+              12 – 17 J. <br>
+              Commercial Tanz, Hip Hop <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              19.00 – 20.00 <br>
+              Solo,Duo,Trio <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa <br>
+            </div>
+          </div>
+          <div class="stundenplan-d di">
+            <p data-aos="fade-up">Вт</p>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              16.00 – 17.00 <br>
+              Solo, Duo, Trio <br>
+              Jana
+            </div>
+            <div data-aos="fade-up">
+              17.00 – 18.30 <br>
+              8 – 10 J. <br>
+              Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              18.30 – 20.00 <br>
+              13 – 17 J.Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up"></div>
+          </div>
+          <div class="stundenplan-d mi">
+            <p data-aos="fade-up">Ср</p>
+            <div data-aos="fade-up">
+              15.00 – 16.00 <br>
+              3 – 4 J <br>
+              Kindertanz <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              16.00 – 17.00 <br>
+              5 – 6 J. <br>
+              Kindertanz <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              17.00 – 18.30 <br>
+              7 – 11 J. <br>
+              Kindertanz, Jazz, Show <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              17.00 – 20.00 <br>
+              10 – 12 J. <br>
+              Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up">
+              18.30 – 20.00 <br>
+              10 – 16 J. <br>
+              Commercial Tanz, Hip Hop <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up"></div>
+          </div>
+          <div class="stundenplan-d do">
+            <p data-aos="fade-up">Чт</p>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              16.00 – 17.30 <br>
+              6 – 8 J <br>
+              Gymnastik, Showtanz <br>
+              Wettbewerbsgruppe <br>
+              Jana
+            </div>
+            <div data-aos="fade-up">
+              17.00 – 18.30 <br>
+              8 – 10 J. <br>
+              Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Slawa
+            </div>
+            <div data-aos="fade-up">
+              17.30 – 20.00 <br>
+              13 – 17J <br>
+              Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              18.30 – 20.00 <br>
+              Commercial und Streetdance <br>
+              16 – 20 J. <br>
+              Nicole
+            </div>
+          </div>
+          <div class="stundenplan-d fr">
+            <p data-aos="fade-up">Пт</p>
+            <div data-aos="fade-up">
+              15.30 – 16.30 <br>
+              3-4 J. <br>
+              Kindertanz <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              16.30 – 17.30 <br>
+              5 – 6 J. <br>
+              Kindertanz <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              16.00 – 17.00 <br>
+              Solo, Duo, Trio <br>
+              Jana
+            </div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up">
+              17.00 – 20.00 <br>
+              10 – 12 J. <br>
+              Jazz, Show, Modern <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up">
+              17.30 – 19.00 <br>
+              7 – 11 J. <br>
+              Kindertanz, Jazz, Show <br>
+              Kristina
+            </div>
+            <div data-aos="fade-up">
+              19.00 – 20.30 <br>
+              12 – 17 J. <br>
+              Commercial Tanz, Hip Hop <br>
+              Kristina
+            </div>
+          </div>
+          <div class="stundenplan-d sa">
+            <p data-aos="fade-up">Сб</p>
+            <div data-aos="fade-up">
+              10.00 – 12.00 <br>
+              9 – 16 J <br>
+              Wettbewerbsgruppe <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up">
+              12.00 – 14.00 <br>
+              Solo, Duo, Trio <br>
+              Jana, Slawa
+            </div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up"></div>
+            <div data-aos="fade-up"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sixth1-krugl-page" id="VERMIETUNG">
+        <div class="sixth1-div-img">
+          <img id="sixth1-page-girl" src="../resource/image/Group 2.png" alt="" data-aos="fade-up" data-aos="fade-left">
+        </div>
+
+        <div data-aos="fade-right">
+          <p class="title-fraza-seventh-page">СДАЧА В АРЕНДУ</p>
+          <p class="text-sixth1-page">Мы сдаем в аренду наши прекрасные помещения для занятий танцами, йогой, фитнесом, пилатесом,
+            семинарами,
+            детскими вечеринками по случаю дня рождения и другими мероприятиями. Их можно арендовать как почасово, так и ежемесячно
+            . Доступность по предварительному запросу Цена: от 30 евро / час при обычной аренде.</p>
+        </div>
+        <div class="sixth1-page-div-grid">
+          <div data-aos="fade-up">
+            <img src="../resource/image/sixth-circle/1.png" alt="">
+            <p>2 Танцевальных зала с зеркалами (75 и 90 кв.м)</p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="../resource/image/sixth-circle/2.png" alt="">
+            <p>необходимый инвентарь</p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="../resource/image/sixth-circle/3.png" alt="">
+            <p>профессиональное звуковое оборудование</p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="../resource/image/sixth-circle/4.png" alt="">
+            <p>бесплатная парковка</p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="../resource/image/sixth-circle/5.png" alt="">
+            <p>уютный зал ожидания</p>
+          </div>
+          <div data-aos="fade-up">
+            <img src="../resource/image/sixth-circle/6.png" alt="">
+            <p>Раздевалки</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sixth2-page">
+        <div class="title-fraza-seventh-page" id="sixth2-title-fraza">НАШИ ПОМЕЩЕНИЯ</div>
+        <div class="sixth2-box-for-three-div">
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="sixth2-div-img">
+              <img src="../resource/image/sixth2/1.png" alt="" class="img-sixth2">
+              <img src="../resource/image/Group 3.png" alt="" class="pomeshenia-img">
+            </div>
+
+            <p class="pustoi-text-sixth2">Небольшая площадь: 75 кв.м.</p>
+            <p class="text-sixth2">вместимостью до 15 человек Цена: от 30 евро / час при обычной аренде</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="sixth2-div-img">
+              <img src="../resource/image/sixth2/2.png" alt="" class="img-sixth2">
+              <img src="../resource/image/Group 3.png" alt="" class="pomeshenia-img">
+            </div>
+
+            <p class="pustoi-text-sixth2">Большая комната: 90 кв.м.</p>
+            <p class="text-sixth2">примерно для 25 человек Цена: от 30 евро / час при регулярной аренде</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <div class="sixth2-div-img">
+              <img src="../resource/image/sixth2/3.png" alt="" class="img-sixth2">
+              <img src="../resource/image/Group 3.png" alt="" class="pomeshenia-img">
+            </div>
+
+            <p class="pustoi-text-sixth2">Комната ожидания</p>
+            <p class="text-sixth2">большой и уютный, с большим количеством сидячих мест, детскими книжками-раскрасками и игрушками для
+              маленьких детей</p>
+          </div>
+        </div>
+        <a href="#SCHREIBEN">
+          <div id="button-sixth2-page">ЗАПРОСЫ НА ДОСТУПНОСТЬ</div>
+        </a>
+
+      </div>
+
+      <div class="sixth3">
+        <div class="title-fraza-sixth3" id="SCHREIBEN">НАПИШИТЕ НАМ</div>
+        <div class="forma-sixth3-page" data-aos="fade-right">
+          <form action="" id="form" class="form__body">
+            <div>
+              <input type="text" placeholder="Name" name="name" class="input _req">
+            </div>
+            <div>
+              <input type="email" placeholder="Email" name="email" class="input _req _email">
+            </div>
+            <div>
+              <input type="number" placeholder="Mobil" name="mobil" class="input _req">
+            </div>
+            <div>
+              <textarea cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" id="button-sixth3-page">Отправить</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="seventh-page" id="IMPRESSUM" style="background-image: url('../resource/image/bg7.png')">
+        <div class="title-fraza-seventh-page red-impressum">КОНТАКТЫ</div>
+        <div class="seventh-page-text">
+          <p class="seventh-page-text1">
+            Unterrichtsräume: <br><br>
+            Tanzschule "Two Times of Dance" <br>
+            Otto - Hahn-Str. 6 40721 Hilden <br>
+            Mobil: +49 (0) 15772000882 <br>
+            E-Mail: <a href="mailto:twotimeofdance@web.de" target="_blank"
+              rel="noopener noreferrer">twotimeofdance@web.de</a>
+
+            Postanschrift: <br><br>
+
+            Jana Taranik <br>
+            Altenbrückstr. 85 <br>
+            40599 Düsseldorf</p>
+          <div class="big-text-impressum" id="element">
+            <p class="seventh-page-text2">
+            <h2>IMPRESSUM</h2> <br>
+            Angaben gemäß § 5 TMG <br><br>
+
+            <b>Jana Taranik</b> <br>
+            Tanzschule “Two Times of Dance” <br>
+            Otto - Hahn-Str. 6 <br>
+            40721 Hilden <br><br>
+
+            <b>Kontakt</b> <br>
+            +49 (0) 15772000882<br>
+            E-Mail: <a href="mailto:twotimeofdance@web.de" target="_blank"
+              rel="noopener noreferrer">twotimeofdance@web.de</a>
+            <br>
+
+            <b>Postadresse</b> <br>
+            Jana Taranik <br>
+            Altenbrückstr. 85 <br>
+            40599 Düsseldorf <br><br>
+
+
+            <b> EU-Streitschlichtung</b>
+            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+            https://ec.europa.eu/consumers/odr/.
+
+            Unsere E-Mail-Adresse finden Sie oben im Impressum.
+
+            Verbraucherstreitbeilegung/Universalschlichtungsstelle
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+            Verbraucherschlichtungsstelle teilzunehmen.
+
+            <h2>Datenschutzerklärung</h2><br>
+            Stand: 28. März 2023 <br><br>
+            <b>Inhaltsübersicht</b> <br><br>
+            <b>Verantwortlicher</b> <br><br>
+            <b></b> Übersicht der Verarbeitungen
+            Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer
+            Verarbeitung zusammen und verweist auf die betroffenen Personen.
+            <b>Arten der verarbeiteten Daten</b> <br><br>
+            <ul class="seventh-ul">
+              <li>Bestandsdaten.</li>
+              <li>Standortdaten.</li>
+              <li>Kontaktdaten.</li>
+              <li>Inhaltsdaten.</li>
+              <li>Nutzungsdaten.</li>
+              <li>Meta-, Kommunikations- und Verfahrensdaten.</li>
+            </ul>
+            <br><br>
+            <b>Kategorien betroffener Personen</b>
+            <ul class="seventh-ul">
+              <li>Kommunikationspartner.</li>
+              <li>Nutzer.</li>
+            </ul>
+            <br><br>
+
+            <b>Zwecke der Verarbeitung</b>
+            <ul class="seventh-ul">
+              <li>Erbringung vertraglicher Leistungen und Kundenservice.</li>
+              <li>Kontaktanfragen und Kommunikation.</li>
+              <li>Sicherheitsmaßnahmen.</li>
+              <li>Verwaltung und Beantwortung von Anfragen.</li>
+              <li>Feedback.</li>
+              <li>Marketing.</li>
+              <li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li>
+              <li>Informationstechnische Infrastruktur.</li>
+            </ul>
+
+            <b>Maßgebliche Rechtsgrundlagen</b>
+            Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir
+            personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen
+            der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten
+            können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen
+            wir Ihnen diese in der Datenschutzerklärung mit.
+            <ul class="seventh-ul">
+              <li>
+                <b>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)</b> - Die betroffene Person hat ihre
+                Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen
+                spezifischen Zweck oder mehrere bestimmte Zwecke gegeben.
+              </li>
+              <li>
+                <b>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)</b> - Die Verarbeitung ist
+                zur
+                Wahrung der berechtigten Interessen des Verantwortlichen oder eines Dritten
+                erforderlich,
+                sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person,
+                die
+                den Schutz personenbezogener Daten erfordern, überwiegen.
+              </li>
+            </ul>
+
+            Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum
+            Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch
+            personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG
+            enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum
+            Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur
+            Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten
+            Entscheidungsfindung im Einzelfall einschließlich Profiling. Des Weiteren regelt es die
+            Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses (§ 26 BDSG), insbesondere im
+            Hinblick auf die Begründung, Durchführung oder Beendigung von Beschäftigungsverhältnissen
+            sowie die Einwilligung von Beschäftigten. Ferner können Landesdatenschutzgesetze der
+            einzelnen Bundesländer zur Anwendung gelangen.
+            <br><br>
+            <b>Sicherheitsmaßnahmen</b>
+            <br><br>
+            Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der
+            Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke
+            der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeiten und des Ausmaßes
+            der Bedrohung der Rechte und Freiheiten natürlicher Personen geeignete technische und
+            organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.
+            <br><br>
+            Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und
+            Verfügbarkeit von Daten durch Kontrolle des physischen und elektronischen Zugangs zu den
+            Daten als auch des sie betreffenden Zugriffs, der Eingabe, der Weitergabe, der Sicherung der
+            Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine
+            Wahrnehmung von Betroffenenrechten, die Löschung von Daten und Reaktionen auf die Gefährdung
+            der Daten gewährleisten. Ferner berücksichtigen wir den Schutz personenbezogener Daten
+            bereits bei der Entwicklung bzw. Auswahl von Hardware, Software sowie Verfahren entsprechend
+            dem Prinzip des Datenschutzes, durch Technikgestaltung und durch datenschutzfreundliche
+            Voreinstellungen.
+            <br><br>
+            <b>Übermittlung von personenbezogenen Daten</b>
+            <br><br>
+            Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass die Daten an
+            andere Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen
+            übermittelt oder sie ihnen gegenüber offengelegt werden. Zu den Empfängern dieser Daten
+            können z.B. mit IT-Aufgaben beauftragte Dienstleister oder Anbieter von Diensten und
+            Inhalten, die in eine Webseite eingebunden werden, gehören. In solchen Fällen beachten wir
+            die gesetzlichen Vorgaben und schließen insbesondere entsprechende Verträge bzw.
+            Vereinbarungen, die dem Schutz Ihrer Daten dienen, mit den Empfängern Ihrer Daten ab.
+            <br><br>
+            <b>Datenverarbeitung in Drittländern</b>
+            <br><br>
+            Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen Union (EU), des
+            Europäischen Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der
+            Inanspruchnahme von Diensten Dritter oder der Offenlegung bzw. Übermittlung von Daten an
+            andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den
+            gesetzlichen Vorgaben.
+            <br><br>
+            Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher
+            Übermittlung verarbeiten oder lassen wir die Daten nur in Drittländern mit einem anerkannten
+            Datenschutzniveau, vertraglichen Verpflichtung durch sogenannte Standardschutzklauseln der
+            EU-Kommission, beim Vorliegen von Zertifizierungen oder verbindlicher internen
+            Datenschutzvorschriften verarbeiten (Art. 44 bis 49 DSGVO, Informationsseite der
+            EU-Kommission:
+            <a class="seventh-page-a"
+              href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de">https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection_de</a>).
+            <br><br>
+            <b>Löschung von Daten</b>
+            <br><br>
+            Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen Vorgaben gelöscht,
+            sobald deren zur Verarbeitung erlaubten Einwilligungen widerrufen werden oder sonstige
+            Erlaubnisse entfallen (z.B. wenn der Zweck der Verarbeitung dieser Daten entfallen ist oder
+            sie für den Zweck nicht erforderlich sind). Sofern die Daten nicht gelöscht werden, weil sie
+            für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung auf
+            diese Zwecke beschränkt. D.h., die Daten werden gesperrt und nicht für andere Zwecke
+            verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen
+            aufbewahrt werden müssen oder deren Speicherung zur Geltendmachung, Ausübung oder
+            Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder
+            juristischen Person erforderlich ist.
+            <br><br>
+            Unsere Datenschutzhinweise können ferner weitere Angaben zu der Aufbewahrung und Löschung
+            von Daten beinhalten, die für die jeweiligen Verarbeitungen vorrangig gelten.
+            <br><br>
+            <b>Einsatz von Cookies</b>
+            <br><br>
+            Cookies sind kleine Textdateien, bzw. sonstige Speichervermerke, die Informationen auf
+            Endgeräten speichern und Informationen aus den Endgeräten auslesen. Z.B. um den Login-Status
+            in einem Nutzerkonto, einen Warenkorbinhalt in einem E-Shop, die aufgerufenen Inhalte oder
+            verwendete Funktionen eines Onlineangebotes speichern. Cookies können ferner zu
+            unterschiedlichen Zwecken eingesetzt werden, z.B. zu Zwecken der Funktionsfähigkeit,
+            Sicherheit und Komfort von Onlineangeboten sowie der Erstellung von Analysen der
+            Besucherströme.
+            <br><br>
+            <b>Hinweise zur Einwilligung:</b> Wir setzen Cookies im Einklang mit den gesetzlichen
+            Vorschriften
+            ein. Daher holen wir von den Nutzern eine vorhergehende Einwilligung ein, außer wenn diese
+            gesetzlich nicht gefordert ist. Eine Einwilligung ist insbesondere nicht notwendig, wenn das
+            Speichern und das Auslesen der Informationen, also auch von Cookies, unbedingt erforderlich
+            sind, um dem den Nutzern einen von ihnen ausdrücklich gewünschten Telemediendienst (also
+            unser Onlineangebot) zur Verfügung zu stellen. Die widerrufliche Einwilligung wird gegenüber
+            den Nutzern deutlich kommuniziert und enthält die Informationen zu der jeweiligen
+            Cookie-Nutzung.
+            <br><br>
+            <b>Hinweise zu datenschutzrechtlichen Rechtsgrundlagen:</b> Auf welcher datenschutzrechtlichen
+            Rechtsgrundlage wir die personenbezogenen Daten der Nutzer mit Hilfe von Cookies
+            verarbeiten, hängt davon ab, ob wir Nutzer um eine Einwilligung bitten. Falls die Nutzer
+            einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte Einwilligung.
+            Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage unserer
+            berechtigten Interessen (z.B. an einem betriebswirtschaftlichen Betrieb unseres
+            Onlineangebotes und Verbesserung seiner Nutzbarkeit) verarbeitet oder, wenn dies im Rahmen
+            der Erfüllung unserer vertraglichen Pflichten erfolgt, wenn der Einsatz von Cookies
+            erforderlich ist, um unsere vertraglichen Verpflichtungen zu erfüllen. Zu welchen Zwecken
+            die Cookies von uns verarbeitet werden, darüber klären wir im Laufe dieser
+            Datenschutzerklärung oder im Rahmen von unseren Einwilligungs- und Verarbeitungsprozessen
+            auf.
+            <br><br>
+            <b>Speicherdauer:</b> Im Hinblick auf die Speicherdauer werden die folgenden Arten von Cookies
+            unterschieden:
+            <ul class="seventh-ul">
+              <li>
+                <b>Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</b> Temporäre Cookies
+                werden
+                spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und sein Endgerät
+                (z.B.
+                Browser oder mobile Applikation) geschlossen hat.
+              </li>
+              <li>
+                <b>Permanente Cookies:</b> Permanente Cookies bleiben auch nach dem Schließen des
+                Endgerätes
+                gespeichert. So können beispielsweise der Login-Status gespeichert oder bevorzugte
+                Inhalte
+                direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht. Ebenso können die
+                mit
+                Hilfe von Cookies erhobenen Daten der Nutzer zur Reichweitenmessung verwendet werden.
+                Sofern
+                wir Nutzern keine expliziten Angaben zur Art und Speicherdauer von Cookies mitteilen (z.
+                B.
+                im Rahmen der Einholung der Einwilligung), sollten Nutzer davon ausgehen, dass Cookies
+                permanent sind und die Speicherdauer bis zu zwei Jahre betragen kann.
+              </li>
+            </ul>
+
+            <b>Allgemeine Hinweise zum Widerruf und Widerspruch (Opt-Out):</b> Nutzer können die von ihnen
+            abgegebenen Einwilligungen jederzeit widerrufen und zudem einen Widerspruch gegen die
+            Verarbeitung entsprechend den gesetzlichen Vorgaben im Art. 21 DSGVO einlegen. Nutzer können
+            ihren Widerspruch auch über die Einstellungen ihres Browsers erklären, z.B. durch
+            Deaktivierung der Verwendung von Cookies (wobei dadurch auch die Funktionalität unserer
+            Online-Dienste eingeschränkt sein kann). Ein Widerspruch gegen die Verwendung von Cookies zu
+            Online-Marketing-Zwecken kann auch über die Websites <a class="seventh-page-a"
+              href="https://optout.aboutads.info">https://optout.aboutads.info</a> und
+            <a class="seventh-page-a" href="https://www.youronlinechoices.com/">https://www.youronlinechoices.com/</a>
+            erklärt
+            werden.
+            <br><br>
+            <ul class="seventh-ul">
+              <li>Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO).</li>
+            </ul>
+            <br><br>
+            <b>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</b>
+            <br><br>
+            <ul class="seventh-ul">
+              <li>
+                <b>Verarbeitung von Cookie-Daten auf Grundlage einer Einwilligung:</b> Wir setzen ein
+                Verfahren
+                zum Cookie-Einwilligungs-Management ein, in dessen Rahmen die Einwilligungen der Nutzer
+                in
+                den Einsatz von Cookies, bzw. der im Rahmen des
+                Cookie-Einwilligungs-Management-Verfahrens
+                genannten Verarbeitungen und Anbieter eingeholt sowie von den Nutzern verwaltet und
+                widerrufen werden können. Hierbei wird die Einwilligungserklärung gespeichert, um deren
+                Abfrage nicht erneut wiederholen zu müssen und die Einwilligung entsprechend der
+                gesetzlichen Verpflichtung nachweisen zu können. Die Speicherung kann serverseitig
+                und/oder
+                in einem Cookie (sogenanntes Opt-In-Cookie, bzw. mithilfe vergleichbarer Technologien)
+                erfolgen, um die Einwilligung einem Nutzer, bzw. dessen Gerät zuordnen zu können.
+                Vorbehaltlich individueller Angaben zu den Anbietern von Cookie-Management-Diensten,
+                gelten
+                die folgenden Hinweise: Die Dauer der Speicherung der Einwilligung kann bis zu zwei
+                Jahren
+                betragen. Hierbei wird ein pseudonymer Nutzer-Identifikator gebildet und mit dem
+                Zeitpunkt
+                der Einwilligung, Angaben zur Reichweite der Einwilligung (z. B. welche Kategorien von
+                Cookies und/oder Diensteanbieter) sowie dem Browser, System und verwendeten Endgerät
+                gespeichert; Rechtsgrundlagen: Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Bereitstellung des Onlineangebotes und Webhosting</b>
+            <br><br>
+            Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen
+            zu können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um
+            die Inhalte und Funktionen unserer Online-Dienste an den Browser oder das Endgerät der
+            Nutzer zu übermitteln.
+            <ul class="seventh-ul">
+              <li>
+                <b>Verarbeitete Datenarten:</b> Nutzungsdaten (z.B. besuchte Webseiten, Interesse an
+                Inhalten,
+                Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen,
+                Zeitangaben,
+                Identifikationsnummern, Einwilligungsstatus).
+              </li>
+              <li>
+                <b>Betroffene Personen:</b> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
+              </li>
+              <li>
+                <b>Zwecke der Verarbeitung:</b> Bereitstellung unseres Onlineangebotes und
+                Nutzerfreundlichkeit;
+                Informationstechnische Infrastruktur (Betrieb und Bereitstellung von
+                Informationssystemen
+                und technischen Geräten (Computer, Server etc.).); Sicherheitsmaßnahmen.
+              </li>
+              <li>
+                <b>Rechtsgrundlagen:</b> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</b>
+            <br><br>
+            <ul class="seventh-ul">
+              <li>
+                Erhebung von Zugriffsdaten und Logfiles: Der Zugriff auf unser Onlineangebot wird in
+                Form
+                von so genannten "Server-Logfiles" protokolliert. Zu den Serverlogfiles können die
+                Adresse
+                und Name der abgerufenen Webseiten und Dateien, Datum und Uhrzeit des Abrufs,
+                übertragene
+                Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das
+                Betriebssystem
+                des Nutzers, Referrer URL (die zuvor besuchte Seite) und im Regelfall IP-Adressen und
+                der
+                anfragende Provider gehören. Die Serverlogfiles können zum einen zu Zwecken der
+                Sicherheit
+                eingesetzt werden, z.B., um eine Überlastung der Server zu vermeiden (insbesondere im
+                Fall
+                von missbräuchlichen Angriffen, sogenannten DDoS-Attacken) und zum anderen, um die
+                Auslastung der Server und ihre Stabilität sicherzustellen; Rechtsgrundlagen: Berechtigte
+                Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); Löschung von Daten: Logfile-Informationen
+                werden für die Dauer von maximal 30 Tagen gespeichert und danach gelöscht oder
+                anonymisiert.
+                Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur
+                endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen.
+              </li>
+            </ul>
+            <br><br>
+            <b>Blogs und Publikationsmedien</b>
+            <br><br>
+            Wir nutzen Blogs oder vergleichbare Mittel der Onlinekommunikation und Publikation
+            (nachfolgend "Publikationsmedium"). Die Daten der Leser werden für die Zwecke des
+            Publikationsmediums nur insoweit verarbeitet, als es für dessen Darstellung und die
+            Kommunikation zwischen Autoren und Lesern oder aus Gründen der Sicherheit erforderlich ist.
+            Im Übrigen verweisen wir auf die Informationen zur Verarbeitung der Besucher unseres
+            Publikationsmediums im Rahmen dieser Datenschutzhinweise.
+            <ul class="seventh-ul">
+              <li>
+                <b> Verarbeitete Datenarten:</b> Bestandsdaten (z.B. Namen, Adressen); Kontaktdaten
+                (z.B. E-Mail,
+                Telefonnummern); Inhaltsdaten (z.B. Eingaben in Onlineformularen); Nutzungsdaten (z.B.
+                besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten); Meta-, Kommunikations- und
+                Verfahrensdaten (z. B. IP-Adressen, Zeitangaben, Identifikationsnummern,
+                Einwilligungsstatus).
+              </li>
+              <li>
+                <b>Betroffene Personen:</b> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
+              </li>
+              <li>
+                <b>Zwecke der Verarbeitung:</b> Erbringung vertraglicher Leistungen und Kundenservice;
+                Feedback
+                (z.B. Sammeln von Feedback via Online-Formular); Bereitstellung unseres Onlineangebotes
+                und
+                Nutzerfreundlichkeit; Sicherheitsmaßnahmen; Verwaltung und Beantwortung von Anfragen.
+              </li>
+              <li>
+                <b>Rechtsgrundlagen:</b> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</b>
+            <ul class="seventh-ul">
+              <li>
+                <b>Kommentare und Beiträge:</b> Wenn Nutzer Kommentare oder sonstige Beiträge
+                hinterlassen,
+                können ihre IP-Adressen auf Grundlage unserer berechtigten Interessen gespeichert
+                werden.
+                Das erfolgt zu unserer Sicherheit, falls jemand in Kommentaren und Beiträgen
+                widerrechtliche
+                Inhalte hinterlässt (Beleidigungen, verbotene politische Propaganda etc.). In diesem
+                Fall
+                können wir selbst für den Kommentar oder Beitrag belangt werden und sind daher an der
+                Identität des Verfassers interessiert. Des Weiteren behalten wir uns vor, auf Grundlage
+                unserer berechtigten Interessen die Angaben der Nutzer zwecks Spamerkennung zu
+                verarbeiten.
+                Auf derselben Rechtsgrundlage behalten wir uns vor, im Fall von Umfragen die IP-Adressen
+                der
+                Nutzer für deren Dauer zu speichern und Cookies zu verwenden, um Mehrfachabstimmungen zu
+                vermeiden. Die im Rahmen der Kommentare und Beiträge mitgeteilten Informationen zur
+                Person,
+                etwaige Kontakt- sowie Webseiteninformationen als auch die inhaltlichen Angaben werden
+                von
+                uns bis zum Widerspruch der Nutzer dauerhaft gespeichert; Rechtsgrundlagen: Berechtigte
+                Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Kontakt- und Anfragenverwaltung</b>
+            <br><br>
+            Bei der Kontaktaufnahme mit uns (z.B. per Post, Kontaktformular, E-Mail, Telefon oder via
+            soziale Medien) sowie im Rahmen bestehender Nutzer- und Geschäftsbeziehungen werden die
+            Angaben der anfragenden Personen verarbeitet, soweit dies zur Beantwortung der
+            Kontaktanfragen und etwaiger angefragter Maßnahmen erforderlich ist.
+            <ul class="seventh-ul">
+              <li>
+                <b>Verarbeitete Datenarten:</b> Kontaktdaten (z.B. E-Mail, Telefonnummern); Inhaltsdaten
+                (z.B.
+                Eingaben in Onlineformularen); Nutzungsdaten (z.B. besuchte Webseiten, Interesse an
+                Inhalten, Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. B.
+                IP-Adressen,
+                Zeitangaben, Identifikationsnummern, Einwilligungsstatus).
+              </li>
+              <li>
+                <b>Betroffene Personen:</b> Kommunikationspartner.
+              </li>
+              <li>
+                <b>Zwecke der Verarbeitung:</b> Kontaktanfragen und Kommunikation; Verwaltung und
+                Beantwortung
+                von Anfragen; Feedback (z.B. Sammeln von Feedback via Online-Formular); Bereitstellung
+                unseres Onlineangebotes und Nutzerfreundlichkeit.
+              </li>
+              <li>
+                <b>Rechtsgrundlagen:</b> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Präsenzen in sozialen Netzwerken (Social Media)</b>
+            <br><br>
+            Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem
+            Rahmen Daten der Nutzer, um mit den dort aktiven Nutzern zu kommunizieren oder um
+            Informationen über uns anzubieten.
+            <br><br>
+            Wir weisen darauf hin, dass dabei Daten der Nutzer außerhalb des Raumes der Europäischen
+            Union verarbeitet werden können. Hierdurch können sich für die Nutzer Risiken ergeben, weil
+            so z.B. die Durchsetzung der Rechte der Nutzer erschwert werden könnte.
+            Ferner werden die Daten der Nutzer innerhalb sozialer Netzwerke im Regelfall für
+            Marktforschungs- und Werbezwecke verarbeitet. So können z.B. anhand des Nutzungsverhaltens
+            und sich daraus ergebender Interessen der Nutzer Nutzungsprofile erstellt werden. Die
+            Nutzungsprofile können wiederum verwendet werden, um z.B. Werbeanzeigen innerhalb und
+            außerhalb der Netzwerke zu schalten, die mutmaßlich den Interessen der Nutzer entsprechen.
+            Zu diesen Zwecken werden im Regelfall Cookies auf den Rechnern der Nutzer gespeichert, in
+            denen das Nutzungsverhalten und die Interessen der Nutzer gespeichert werden. Ferner können
+            in den Nutzungsprofilen auch Daten unabhängig der von den Nutzern verwendeten Geräte
+            gespeichert werden (insbesondere, wenn die Nutzer Mitglieder der jeweiligen Plattformen sind
+            und bei diesen eingeloggt sind).
+            <br><br>
+            Für eine detaillierte Darstellung der jeweiligen Verarbeitungsformen und der
+            Widerspruchsmöglichkeiten (Opt-Out) verweisen wir auf die Datenschutzerklärungen und Angaben
+            der Betreiber der jeweiligen Netzwerke.
+            <br><br>
+            Auch im Fall von Auskunftsanfragen und der Geltendmachung von Betroffenenrechten weisen wir
+            darauf hin, dass diese am effektivsten bei den Anbietern geltend gemacht werden können. Nur
+            die Anbieter haben jeweils Zugriff auf die Daten der Nutzer und können direkt entsprechende
+            Maßnahmen ergreifen und Auskünfte geben. Sollten Sie dennoch Hilfe benötigen, dann können
+            Sie sich an uns wenden.
+            <br><br>
+            <ul class="seventh-ul">
+              <li>
+                <b>Verarbeitete Datenarten:</b> Kontaktdaten (z.B. E-Mail, Telefonnummern); Inhaltsdaten
+                (z.B.
+                Eingaben in Onlineformularen); Nutzungsdaten (z.B. besuchte Webseiten, Interesse an
+                Inhalten, Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. B.
+                IP-Adressen,
+                Zeitangaben, Identifikationsnummern, Einwilligungsstatus).
+              </li>
+              <li>
+                <b>Betroffene Personen:</b> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
+              </li>
+              <li>
+                <b>Zwecke der Verarbeitung:</b> Kontaktanfragen und Kommunikation; Feedback (z.B.
+                Sammeln von
+                Feedback via Online-Formular); Marketing.
+              </li>
+              <li>
+                <b>Rechtsgrundlagen:</b> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</b>
+            <br><br>
+            <ul class="seventh-ul">
+              <li>
+                <b>Instagram:</b> Soziales Netzwerk; Dienstanbieter: Meta Platforms Irland Limited, 4
+                Grand Canal
+                Square, Grand Canal Harbour, Dublin 2, Irland; Rechtsgrundlagen: Berechtigte Interessen
+                (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); Website: <a class="seventh-page-a"
+                  href="https://www.instagram.com;">https://www.instagram.com;</a>
+                Datenschutzerklärung: <a class="seventh-page-a"
+                  href="https://instagram.com/about/legal/privacy">https://instagram.com/about/legal/privacy</a>
+                .
+              </li>
+              <li>
+                Facebook-Seiten: Profile innerhalb des sozialen Netzwerks Facebook - Wir sind gemeinsam
+                mit Meta Platforms Ireland Limited für die Erhebung (jedoch nicht die weitere
+                Verarbeitung)
+                von Daten der Besucher unserer Facebook-Seite (sog. "Fanpage") verantwortlich. Zu diesen
+                Daten gehören Informationen zu den Arten von Inhalten, die Nutzer sich ansehen oder mit
+                denen sie interagieren, oder die von ihnen vorgenommenen Handlungen (siehe unter „Von
+                dir
+                und anderen getätigte und bereitgestellte Dinge“ in der Facebook-Datenrichtlinie:
+                <a class="seventh-page-a" href="https://www.facebook.com/policy">https://www.facebook.com/policy</a>
+                ), sowie Informationen über die von den Nutzern genutzten
+                Geräte (z. B. IP-Adressen, Betriebssystem, Browsertyp, Spracheinstellungen,
+                Cookie-Daten;
+                siehe unter „Geräteinformationen“ in der Facebook-Datenrichtlinie:
+                <a class="seventh-page-a" href="https://www.facebook.com/policy">https://www.facebook.com/policy</a>
+                ). Wie in der Facebook-Datenrichtlinie unter „Wie
+                verwenden
+                wir diese Informationen?“ erläutert, erhebt und verwendet Facebook Informationen auch,
+                um
+                Analysedienste, so genannte "Seiten-Insights", für Seitenbetreiber bereitzustellen,
+                damit
+                diese Erkenntnisse darüber erhalten, wie Personen mit ihren Seiten und mit den mit ihnen
+                verbundenen Inhalten interagieren. Wir haben mit Facebook eine spezielle Vereinbarung
+                abgeschlossen ("Informationen zu Seiten-Insights",
+                <a class="seventh-page-a"
+                  href="https://www.facebook.com/legal/terms/page_controller_addendum">https://www.facebook.com/legal/terms/page_controller_addendum</a>
+                ), in der insbesondere
+                geregelt
+                wird, welche Sicherheitsmaßnahmen Facebook beachten muss und in der Facebook sich bereit
+                erklärt hat die Betroffenenrechte zu erfüllen (d. h. Nutzer können z. B. Auskünfte oder
+                Löschungsanfragen direkt an Facebook richten). Die Rechte der Nutzer (insbesondere auf
+                Auskunft, Löschung, Widerspruch und Beschwerde bei zuständiger Aufsichtsbehörde), werden
+                durch die Vereinbarungen mit Facebook nicht eingeschränkt. Weitere Hinweise finden sich
+                in
+                den "Informationen zu Seiten-Insights"
+
+                (<a class="seventh-page-a"
+                  href="https://www.facebook.com/legal/terms/information_about_page_insights_data">https://www.facebook.com/legal/terms/information_about_page_insights_data</a>
+                );
+                Dienstanbieter:
+                Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2,
+                Irland;
+                Rechtsgrundlagen: Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); Website:
+                <a class="seventh-page-a" href="https://www.facebook.com">https://www.facebook.com</a>
+                ; Datenschutzerklärung: <a
+                  href="https://www.facebook.com/about/privacy">https://www.facebook.com/about/privacy</a>
+                ;
+                Standardvertragsklauseln (Gewährleistung Datenschutzniveau bei Verarbeitung in
+                Drittländern): <a class="seventh-page-a"
+                  href="https://www.facebook.com/legal/EU_data_transfer_addendum">https://www.facebook.com/legal/EU_data_transfer_addendum</a>
+                ; Weitere
+                Informationen: Vereinbarung gemeinsamer Verantwortlichkeit:
+                <a class="seventh-page-a"
+                  href="https://www.facebook.com/legal/terms/information_about_page_insights_data">https://www.facebook.com/legal/terms/information_about_page_insights_data</a>
+                . Die
+                gemeinsame
+                Verantwortlichkeit beschränkt sich auf die Erhebung durch und Übermittlung von Daten an
+                Meta
+                Platforms Ireland Limited, ein Unternehmen mit Sitz in der EU. Die weitere Verarbeitung
+                der
+                Daten liegt in der alleinigen Verantwortung von Meta Platforms Ireland Limited, was
+                insbesondere die Übermittlung der Daten an die Muttergesellschaft Meta Platforms, Inc.
+                in
+                den USA betrifft (auf der Grundlage der zwischen Meta Platforms Ireland Limited und Meta
+                Platforms, Inc. geschlossenen Standardvertragsklauseln).
+              </li>
+              <li>
+                <b>Twitter:</b> Soziales Netzwerk; Dienstanbieter: Twitter International Company, One
+                Cumberland
+                Place, Fenian Street, Dublin 2 D02 AX07, Irland, Mutterunternehmen: Twitter Inc., 1355
+                Market Street, Suite 900, San Francisco, CA 94103, USA; Rechtsgrundlagen: Berechtigte
+                Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); Datenschutzerklärung:
+                <a class="seventh-page-a" href="https://twitter.com/privacy">https://twitter.com/privacy</a>
+                , (Settings: <a class="seventh-page-a"
+                  href="https://twitter.com/personalization">https://twitter.com/personalization</a>).
+              </li>
+            </ul>
+            <br><br>
+            <b>Plugins und eingebettete Funktionen sowie Inhalte</b>
+            <br><br>
+            Wir binden in unser Onlineangebot Funktions- und Inhaltselemente ein, die von den Servern
+            ihrer jeweiligen Anbieter (nachfolgend bezeichnet als "Drittanbieter”) bezogen werden. Dabei
+            kann es sich zum Beispiel um Grafiken, Videos oder Stadtpläne handeln (nachfolgend
+            einheitlich bezeichnet als "Inhalte”).
+            <br><br>
+            Die Einbindung setzt immer voraus, dass die Drittanbieter dieser Inhalte die IP-Adresse der
+            Nutzer verarbeiten, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden
+            könnten. Die IP-Adresse ist damit für die Darstellung dieser Inhalte oder Funktionen
+            erforderlich. Wir bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige Anbieter die
+            IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Drittanbieter können ferner
+            sogenannte Pixel-Tags (unsichtbare Grafiken, auch als "Web Beacons" bezeichnet) für
+            statistische oder Marketingzwecke verwenden. Durch die "Pixel-Tags" können Informationen,
+            wie der Besucherverkehr auf den Seiten dieser Webseite, ausgewertet werden. Die pseudonymen
+            Informationen können ferner in Cookies auf dem Gerät der Nutzer gespeichert werden und unter
+            anderem technische Informationen zum Browser und zum Betriebssystem, zu verweisenden
+            Webseiten, zur Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebotes
+            enthalten als auch mit solchen Informationen aus anderen Quellen verbunden werden.
+            <br><br>
+            <ul class="seventh-ul">
+              <li>
+                <b>Verarbeitete Datenarten:</b> Nutzungsdaten (z.B. besuchte Webseiten, Interesse an
+                Inhalten,
+                Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen,
+                Zeitangaben,
+                Identifikationsnummern, Einwilligungsstatus); Bestandsdaten (z.B. Namen, Adressen);
+                Kontaktdaten (z.B. E-Mail, Telefonnummern); Inhaltsdaten (z.B. Eingaben in
+                Onlineformularen); Standortdaten (Angaben zur geografischen Position eines Gerätes oder
+                einer Person).
+              </li>
+              <li>
+                <b>Betroffene Personen:</b> Nutzer (z.B. Webseitenbesucher, Nutzer von Onlinediensten).
+              </li>
+              <li>
+                <b>Zwecke der Verarbeitung:</b> Bereitstellung unseres Onlineangebotes und
+                Nutzerfreundlichkeit.
+              </li>
+              <li>
+                <b>Rechtsgrundlagen:</b> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+              </li>
+            </ul>
+            <br><br>
+            <b>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</b>
+            <br><br>
+            <ul class="seventh-ul">
+              <li>
+                Google Fonts (Bezug vom Google Server): Bezug von Schriften (und Symbolen) zum Zwecke
+                einer technisch sicheren, wartungsfreien und effizienten Nutzung von Schriften und
+                Symbolen
+                im Hinblick auf Aktualität und Ladezeiten, deren einheitliche Darstellung und
+                Berücksichtigung möglicher lizenzrechtlicher Beschränkungen. Dem Anbieter der
+                Schriftarten
+                wird die IP-Adresse des Nutzers mitgeteilt, damit die Schriftarten im Browser des
+                Nutzers
+                zur Verfügung gestellt werden können. Darüber hinaus werden technische Daten
+                (Spracheinstellungen, Bildschirmauflösung, Betriebssystem, verwendete Hardware)
+                übermittelt,
+                die für die Bereitstellung der Schriften in Abhängigkeit von den verwendeten Geräten und
+                der
+                technischen Umgebung notwendig sind. Diese Daten können auf einem Server des Anbieters
+                der
+                Schriftarten in den USA verarbeitet werden - Beim Besuch unseres Onlineangebotes senden
+                die
+                Browser der Nutzer ihre Browser HTTP-Anfragen an die Google Fonts Web API (d.h. eine
+                Softwareschnittstelle für den Abruf der Schriftarten). Die Google Fonts Web API stellt
+                den
+                Nutzern die Cascading Style Sheets (CSS) von Google Fonts und danach die in der CCS
+                angegebenen Schriftarten zur Verfügung. Zu diesen HTTP-Anfragen gehören (1) die vom
+                jeweiligen Nutzer für den Zugriff auf das Internet verwendete IP-Adresse, (2) die
+                angeforderte URL auf dem Google-Server und (3) die HTTP-Header, einschließlich des
+                User-Agents, der die Browser- und Betriebssystemversionen der Websitebesucher
+                beschreibt,
+                sowie die Verweis-URL (d.h. die Webseite, auf der die Google-Schriftart angezeigt werden
+                soll). IP-Adressen werden weder auf Google-Servern protokolliert noch gespeichert und
+                sie
+                werden nicht analysiert. Die Google Fonts Web API protokolliert Details der
+                HTTP-Anfragen
+                (angeforderte URL, User-Agent und Verweis-URL). Der Zugriff auf diese Daten ist
+                eingeschränkt und streng kontrolliert. Die angeforderte URL identifiziert die
+                Schriftfamilien, für die der Nutzer Schriftarten laden möchte. Diese Daten werden
+                protokolliert, damit Google bestimmen kann, wie oft eine bestimmte Schriftfamilie
+                angefordert wird. Bei der Google Fonts Web API muss der User-Agent die Schriftart
+                anpassen,
+                die für den jeweiligen Browsertyp generiert wird. Der User-Agent wird in erster Linie
+                zum
+                Debugging protokolliert und verwendet, um aggregierte Nutzungsstatistiken zu generieren,
+                mit
+                denen die Beliebtheit von Schriftfamilien gemessen wird. Diese zusammengefassten
+                Nutzungsstatistiken werden auf der Seite „Analysen“ von Google Fonts veröffentlicht.
+                Schließlich wird die Verweis-URL protokolliert, sodass die Daten für die Wartung der
+                Produktion verwendet und ein aggregierter Bericht zu den Top-Integrationen basierend auf
+                der
+                Anzahl der Schriftartenanfragen generiert werden kann. Google verwendet laut eigener
+                Auskunft keine der von Google Fonts erfassten Informationen, um Profile von Endnutzern
+                zu
+                erstellen oder zielgerichtete Anzeigen zu schalten;<b>Dienstanbieter</b> : Google
+                Ireland Limited,
+                Gordon House, Barrow Street, Dublin 4, Irland; <b>Rechtsgrundlagen</b> : Berechtigte
+                Interessen
+                (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); <b>Website</b> : <a class="seventh-page-a"
+                  href="https://fonts.google.com/">https://fonts.google.com/</a> ;
+                <b>Datenschutzerklärung</b>: <a class="seventh-page-a"
+                  href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> ;
+                <b>Weitere Informationen:</b>
+                <a class="seventh-page-a"
+                  href="https://developers.google.com/fonts/faq/privacy?hl=de">https://developers.google.com/fonts/faq/privacy?hl=de</a>
+                .
+              </li>
+              <li>
+                <b>Google Maps:</b> Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters
+                Google
+                ein. Zu den verarbeiteten Daten können insbesondere IP-Adressen und Standortdaten der
+                Nutzer
+                gehören; <b>Dienstanbieter</b> : Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay,
+                Dublin 2,
+                Irland; <b>Rechtsgrundlagen</b> : Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
+                DSGVO);
+                <b> Website:</b> <a class="seventh-page-a"
+                  href="https://mapsplatform.google.com/">https://mapsplatform.google.com/</a> ;
+                <b>Datenschutzerklärung</b> :
+                <a class="seventh-page-a"
+                  href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> .
+              </li>
+              <li>
+                <b>YouTube-Videos:</b> Videoinhalte; <b>Dienstanbieter:</b> Google Ireland Limited,
+                Gordon House, Barrow
+                Street, Dublin 4, Irland; <b>Rechtsgrundlagen:</b> Berechtigte Interessen (Art. 6 Abs. 1
+                S. 1 lit.
+                f) DSGVO); <b>Website:</b> <a class="seventh-page-a"
+                  href="https://www.youtube.com">https://www.youtube.com</a>
+                ; <b>Datenschutzerklärung:</b>
+                <a class="seventh-page-a"
+                  href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+                ;<b>Widerspruchsmöglichkeit (Opt-Out):</b> Opt-Out-Plugin:
+                <a class="seventh-page-a"
+                  href="https://tools.google.com/dlpage/gaoptout?hl=de">https://tools.google.com/dlpage/gaoptout?hl=de</a>
+                , Einstellungen für die Darstellung von
+                Werbeeinblendungen: <a class="seventh-page-a"
+                  href="https://adssettings.google.com/authenticated">https://adssettings.google.com/authenticated</a>
+                .
+              </li>
+            </ul>
+            <br><br>
+            <b>Änderung und Aktualisierung der Datenschutzerklärung</b>
+            <br><br>
+            Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung zu informieren.
+            Wir passen die Datenschutzerklärung an, sobald die Änderungen der von uns durchgeführten
+            Datenverarbeitungen dies erforderlich machen. Wir informieren Sie, sobald durch die
+            Änderungen eine Mitwirkungshandlung Ihrerseits (z.B. Einwilligung) oder eine sonstige
+            individuelle Benachrichtigung erforderlich wird.
+            <br><br>
+            Sofern wir in dieser Datenschutzerklärung Adressen und Kontaktinformationen von Unternehmen
+            und Organisationen angeben, bitten wir zu beachten, dass die Adressen sich über die Zeit
+            ändern können und bitten die Angaben vor Kontaktaufnahme zu prüfen.
+            <br><br>
+            <b>Rechte der betroffenen Personen</b>
+            <br><br>
+            Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus
+            Art. 15 bis 21 DSGVO ergeben:
+            <ul class="seventh-ul">
+              <li>
+                <b>Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen
+                  Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden
+                  personenbezogenen
+                  Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch
+                  einzulegen;
+                  dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Werden die Sie
+                  betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben,
+                  haben Sie
+                  das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie betreffenden
+                  personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für
+                  das
+                  Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.</b>
+              </li>
+              <li>
+                <b>Widerrufsrecht bei Einwilligungen:</b> Sie haben das Recht, erteilte Einwilligungen
+                jederzeit
+                zu widerrufen.
+              </li>
+              <li>
+                <b>Auskunftsrecht:</b> Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob
+                betreffende
+                Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere
+                Informationen
+                und Kopie der Daten entsprechend den gesetzlichen Vorgaben.
+              </li>
+              <li>
+                <b>Recht auf Berichtigung:</b> Sie haben entsprechend den gesetzlichen Vorgaben das
+                Recht, die
+                Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden
+                unrichtigen Daten zu verlangen.
+              </li>
+              <li>
+                <b>Recht auf Löschung und Einschränkung der Verarbeitung:</b> Sie haben nach Maßgabe der
+                gesetzlichen Vorgaben das Recht, zu verlangen, dass Sie betreffende Daten unverzüglich
+                gelöscht werden, bzw. alternativ nach Maßgabe der gesetzlichen Vorgaben eine
+                Einschränkung
+                der Verarbeitung der Daten zu verlangen.
+              </li>
+              <li>
+                <b>Recht auf Datenübertragbarkeit:</b> Sie haben das Recht, Sie betreffende Daten, die
+                Sie uns
+                bereitgestellt haben, nach Maßgabe der gesetzlichen Vorgaben in einem strukturierten,
+                gängigen und maschinenlesbaren Format zu erhalten oder deren Übermittlung an einen
+                anderen
+                Verantwortlichen zu fordern.
+              </li>
+              <li>
+                <b>Beschwerde bei Aufsichtsbehörde:</b> Sie haben unbeschadet eines anderweitigen
+                verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs das Recht auf Beschwerde bei
+                einer
+                Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthaltsorts,
+                ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn Sie der Ansicht
+                sind,
+                dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die Vorgaben
+                der
+                DSGVO verstößt.
+              </li>
+            </ul>
+            <a class="seventh-page-a" href="">Erstellt mit kostenlosem Datenschutz-Generator.de von Dr.
+              Thomas Schwenke</a>
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="eighth-page" id="KONTAKT">
+        <div class="conteinereight-page-flex">
+          <div class="conteinereight-page-grid">
+            <div data-aos="fade-up">
+              <div class="title-fraza-eighth-page">KONTAKT</div>
+              <div class="text-eigth-page">
+                Unterrichtsräume:
+                <br><br>
+                Tanzschule "Two Times of Dance" <br>
+                Otto - Hahn-Str. 6 <br>
+                40721 Hilden <br>
+                -------------------- <br>
+                <br><br>
+                Postanschrift:
+                <br><br>
+                Jana Taranik <br>
+                Altenbrückstr. 85 <br>
+                40599 Düsseldorf <br>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" id="div-footer" class="conteiner-inputs-eighth-page">
+              <div class="title-fraza-eighth-page">НАПИШИТЕ НАМ</div>
+              <div>
+                <div class="input-wrapper">
+                  <input type="text" placeholder="Name" name="text" class="input inp-inp">
+                </div>
+                <div class="input-wrapper">
+                  <input type="text" placeholder="Email" name="email" class="input inp-inp">
+                </div>
+                <div class="input-wrapper">
+                  <input type="number" placeholder="Mobil" name="text" class="input inp-inp">
+                </div>
+                <div>
+                  <textarea class="input-wrapper-textarea" cols="30" rows="10"></textarea>
+                </div>
+                <button class="footer-button"> Отправить </button>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" style="width: 100px;">
+              <div class="title-fraza-eighth-page">СОДЕРЖАНИЕ</div>
+              <div class="text-eigth-page">
+                <ul class="footer-list">
+                  <li><a href="#HOME">Главная</a></li>
+                  <li><a href="#ÜBER UNS">О нас</a></li>
+                  <li><a href="#AKTUELL">Новости</a></li>
+                  <li><a href="#STUNDENPLAN">Расписание </a></li>
+                  <li><a href="">Контакты</a></li>
+                  <li><a href="#IMPRESSUM">IMPRESSUM</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+            <div class="map" data-aos="fade-up">
+              <div class="title-fraza-eighth-page" id="karta">Карта</div>
+              <div class="container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.68887195741!2d6.911746000000001!3d51.169525099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8cc8ecd56dc59%3A0xe1537ead4fadee16!2sTanzschule%20Two%20Times%20of%20Dance!5e0!3m2!1sru!2sde!4v1680625854749!5m2!1sru!2sde"
+                  width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+
+          </div>
+          <div data-aos="fade-up" style="margin-left: 0px;">
+
+            <img id="footer-logo" src="../resource/image/logo-weiß-2023 2.png" alt="alt">
+
+          </div>
+        </div>
+      </div>
+
+      <div id="cookie_notification">
+        <div class="cookies-red">НАСТРОЙКИ ФАЙЛОВ COOKIE</div>
+        <p>Мы используем файлы cookie для персонализации контента и рекламы, предоставления функций социальных сетей
+          и анализа посещаемости нашего веб-сайта. Кроме того, мы предоставляем информацию о вашем
+           Передавать использование нашего веб-сайта нашим партнерам в социальных сетях, рекламе и аналитике. Наши партнеры
+          могут объединять эту информацию с другими данными, которые они предоставили вам или
+          которые они собрали в рамках использования вами Услуг.</p>
+        <div class="buttons">
+          <button class="button cookie_accept cookie_accept_white">Принять все </button>
+          <button class="button cookie_accept cookie_accept_white">Только абсолютно необходимый</button>
+          <button class="button cookie_accept cookie_accept_red">Продолжать без согласия </button>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <script>
+    prompt
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>

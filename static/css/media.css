@@ -1,0 +1,1438 @@
+@media screen and (max-width: 1450px) {
+  #img-girl {
+    height: 80vh;
+  }
+
+  #sixth1-page-girl {
+    margin: 5vh 0 0 47vw;
+  }
+
+  .img-sixth2 {
+    height: 220px;
+  }
+
+  .pomeshenia-img {
+    height: 420px;
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .button1{
+    margin-left: 60%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .img-third-page {
+    height: 210px;
+    width: 300px;
+  }
+
+  .pomeshenia-img {
+    height: 400px;
+    width: 335px;
+  }
+
+  .div-row-third-page {
+    height: 490px;
+    width: 350px;
+  }
+
+  #img-girl {
+    position: absolute;
+    height: 75vh;
+    margin-left: 50%;
+  }
+
+  #sixth1-page-girl {
+    width: 60vh;
+    margin: 10vh 0 0 53vw;
+  }
+
+  .img-sixth2 {
+    height: 200px;
+  }
+
+  .pomeshenia-img {
+    height: 380px;
+    width: 315px;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 300px;
+    border-radius: 4px;
+  }
+
+  .stundenplan-cont-grid {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .text-third-page {
+    width: 100%;
+  }
+
+  .img-third-page {
+    height: 250px;
+    width: 380px;
+  }
+
+  .box-third-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .div-row-third-page {
+    height: 550px;
+    width: 360px;
+  }
+
+
+  .input-wrapper input {
+    padding: 2%;
+    width: 260px;
+  }
+
+  textarea {
+    max-width: 260px;
+    min-width: 260px;
+  }
+
+  .img-sixth2 {
+    height: 180px;
+  }
+
+  .pomeshenia-img {
+    height: 340px;
+    width: 290px;
+  }
+
+  #sixth1-page-girl {
+    width: 60vh;
+    margin: 10vh 0 0 50vw;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 260px;
+    border-radius: 4px;
+  }
+
+  .stundenplan-d>div {
+    width: 140px;
+    height: 100px;
+  }
+
+  .div-girl-fifith-page {
+    position: absolute;
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  #sixth1-page-girl {
+    width: 35vh;
+    margin: 10vh 0 0 45vw;
+  }
+
+  .conteinereight-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .conteinereight-page-grid>div {
+    margin-bottom: 10vh;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .eighth-page {
+    padding: 10vh 0vh 7vh 17vh;
+  }
+
+  .text-head {
+    width: 45%;
+    margin: 30vh 4% 4% 10%;
+  }
+
+  .button1{
+    margin-left: 60%;
+  }
+
+  .img-third-page {
+    height: 250px;
+    width: 350px;
+  }
+
+  .box-third-page {
+    margin-left: 6%;
+  }
+
+  .row-third-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-third-page div {
+    width: 83%;
+    margin: 5% 2% 2% 1%;
+    height: 550px;
+  }
+
+  .top {
+    margin-top: 100px;
+  }
+
+  #img-girl {
+    height: 60vh;
+    margin-left: 54%;
+  }
+
+  .img-teachers {
+    width: 240px;
+    height: 220px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 180px;
+    height: 210px;
+    left: 70px;
+    top: 5px;
+    z-index: 0;
+  }
+
+  .pomeshenia-img {
+    height: 310px;
+    width: 240px;
+  }
+
+  .img-sixth2 {
+    height: 160px;
+  }
+
+  .girl-fifth-page {
+    width: 400px;
+  }
+
+  #title-fraza {
+    width: 50%;
+    padding: 17% 0 0 17.2%;
+  }
+
+  #div-footer {
+    margin-left: 0px;
+  }
+
+  .map {
+    margin-left: 0;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 240px;
+    border-radius: 4px;
+  }
+
+  .stundenplan-d>div {
+    width: 120px;
+    height: 100px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  #sixth1-page-girl {
+    width: 35vh;
+    margin: 10vh 0 0 45vw;
+}
+  .menu-div-2 {
+    padding: 0 15px 10px 0 ;
+  }
+
+  .container {
+    height: 230px;
+  }
+
+  iframe {
+    height: 230px;
+    width: 230px;
+  }
+
+  .text-head {
+    width: 35%;
+    margin: 20vh 4% 4% 12.5%;
+  }
+
+  .button1{
+    margin-left: 65%;
+  }
+
+  #img-girl {
+    width: 420px;
+    margin-left: 51%;
+  }
+
+  .img-third-page {
+    height: 220px;
+    width: 320px;
+  }
+
+  .first-row {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10vh 0 0 12.5%;
+  }
+
+  .img-teachers {
+    width: 240px;
+    height: 220px;
+  }
+
+  .girl-fifth-page {
+    width: 350px;
+  }
+
+  .conteiner-fifth-page {
+    margin: 15vh 5% 5% 10%;
+  }
+
+  #title-fraza-fifth-page {
+    padding: 7vh 0 0 14%;
+  }
+
+  .sixth1-page-div-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text-sixth1-page {
+    font-family: roboto-light;
+    padding-left: 9%;
+    font-size: 14px;
+    width: 60%;
+  }
+
+
+  .sixth2-box-for-three-div {
+    flex-direction: column;
+  }
+
+  .sixth2-page {
+    padding-bottom: 15vh;
+    background-image: none;
+    background-color: #1b1b1b;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 700px;
+    border-radius: 4px;
+  }
+
+  .sixth2-box-for-three-div>div {
+    margin-bottom: 12vh;
+  }
+
+  #logo-img {
+    width: 120px;
+    margin-bottom: 15px;
+    z-index: 20;
+  }
+
+  .stundenplan-cont-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .stundenplan-d>div {
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+
+  .do,
+  .fr,
+  .sa {
+    margin-top: 10vh;
+  }
+
+  .img-sixth2 {
+    height: 400px;
+  }
+
+  .sixth2-div-img {
+    height: 450px;
+  }
+
+  .pomeshenia-img {
+    margin: 40px 0 0 300px;
+    height: 560px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #img-girl {
+    width: 380px;
+    margin-left: 47%;
+    height: 55vh;
+  }
+
+  .text-head {
+    width: 45%;
+    margin: 25vh 4% 4% 7%;
+  }
+
+  .button1{
+    margin-left: 35%;
+  }
+
+  .first-row {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3% 0 0 7.5%;
+  }
+
+  #title-fraza {
+    padding: 14% 0 0 13.8%;
+  }
+
+  .img-third-page {
+    height: 220px;
+    width: 300px;
+  }
+
+  .img-teachers {
+    width: 200px;
+    height: 190px;
+  }
+
+  .girl-fifth-page {
+    width: 330px;
+  }
+
+  #logo-img {
+    width: 140px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 140px;
+    height: 180px;
+    left: 70px;
+    top: 5px;
+    z-index: 0;
+  }
+
+  .div-img-third-page {
+    height: 210px;
+    width: 100px;
+  }
+
+  .links-head {
+    margin-bottom: 1%;
+  }
+
+  .eighth-page {
+    padding: 10vh 0vh 7vh 10vh;
+  }
+
+  .box-third-page {
+    margin-left: 7%;
+  }
+
+  #sixth1-page-girl {
+    width: 0;
+  }
+
+  .sixth1-page-div-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .sixth1-page-div-grid>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32vw;
+  }
+
+  .sixth1-page-div-grid {
+    padding: 10vh 0 0 2%;
+  }
+
+  .text-sixth1-page {
+    width: 90%;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 600px;
+  }
+
+  .img-sixth2 {
+    height: 350px;
+  }
+
+  .pomeshenia-img {
+    margin: 10px 0 0 210px;
+    height: 560px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sixth-page {
+    background-image: none;
+    background-color: #1b1b1b;
+  }
+
+  body.lock {
+    overflow: hidden;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .znak-red i {
+    color: white;
+  }
+
+  .links-head {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 7vh 0 0 0;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: roboto-light;
+  }
+
+  .links-head>div {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 4%;
+  }
+
+  .links {
+    width: 400px;
+    flex-direction: column;
+  }
+
+  .media {
+    width: 250px;
+    flex-direction: column-reverse;
+  }
+
+  .media.fixed {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .menu-div {
+    order: 2;
+    display: flex;
+  }
+
+  .links-head p {
+    padding: 0px 0px 10px 20px;
+  }
+
+  #logo-img {
+    z-index: 30;
+    padding-left: 6%;
+    margin: 0;
+  }
+
+  .seventh-page-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+  }
+
+  .big-text-impressum {
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 95%;
+  }
+
+  .seventh-page-text1 {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .head {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+  }
+
+  .head::before {
+    background-color: white;
+    z-index: 30;
+  }
+
+  .div-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 30;
+    margin-right: 3%;
+  }
+
+  .girl-fifth-page {
+    width: 0px;
+    margin-top: 0;
+  }
+
+  .conteiner-fifth-page>div {
+    width: 100%;
+  }
+
+  .tel {
+    display: flex;
+    order: 1;
+    font-size: calc(11px + (1 + 1 * 0.7) * (100vw - 320px) / 1280);
+  }
+
+  .translate {
+    font-size: 16px;
+  }
+
+  .div-burger.active::before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .div-burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .div-burger.active span {
+    transform: scale(0);
+  }
+
+  .div-burger span {
+    position: absolute;
+    background-color: var(--color);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all .3s ease 0s;
+  }
+
+  .div-burger::before,
+  .div-burger::after {
+    content: '';
+    background-color: var(--color);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    z-index: 30;
+    transition: all .3s ease 0s;
+  }
+
+  .div-burger::before {
+    top: 0;
+  }
+
+  .div-burger::after {
+    bottom: 0;
+  }
+
+  .links-head {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+    overflow: auto;
+    transition: all .3s ease 0s;
+    background-color: rgb(24, 23, 23);
+  }
+
+  .links-head.active {
+    top: 0;
+  }
+
+  .links-head.jsclose {
+    top: -100%;
+  }
+
+  .links-head a {
+    color: var(--color);
+    transition: all .1s ease 0s;
+  }
+
+  .links-head a.white {
+    color: white;
+    transition: all .1s ease 0s;
+  }
+
+  .links-head a:hover {
+    color: white;
+    transition: all .1s ease 0s;
+  }
+
+  .links-head a.white:hover {
+    color: var(--color);
+    transition: all .1s ease 0s;
+  }
+
+  .box-third-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-row-third-page {
+    margin-left: 7.5%;
+  }
+
+  .conteiner-fifth-page>.div-fifth {
+    width: 100%;
+  }
+
+  .img-third-page {
+    height: 360px;
+    width: 600px;
+  }
+
+  .map {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+  }
+
+  #padding-links {
+    padding-top: 3vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #img-girl {
+    height: 0;
+  }
+
+  #pustoi-text {
+    width: 100%;
+    margin: 10% 0 10% 22%;
+  }
+
+  .text-fourth-page {
+    width: 86%;
+  }
+
+  .img-third-page {
+    height: 330px;
+    width: 500px;
+  }
+
+  .img-teachers {
+    width: 420px;
+    height: 420px;
+  }
+
+  .box-fourth-page>div {
+    width: 450px;
+    margin-bottom: 10vh;
+  }
+
+  .box-fourth-page {
+    background-color: #1b1b1b;
+    background-image: none;
+  }
+
+  #title-fraze-fouth-page {
+    padding: 3% 0 3% 14%;
+  }
+
+  .conteiner-fifth-page {
+    margin: 5vh 5% 5% 10%;
+  }
+
+  .first-row {
+    grid-template-columns: 1fr 1fr;
+    padding: 10vh 0 0 12.5%;
+  }
+
+  .box-third-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-third-page {
+    margin-left: 7.5%;
+    width: 100%;
+  }
+
+  .box-fourth-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .input-wrapper input {
+    padding: 2%;
+    width: 200px;
+  }
+
+  textarea {
+    max-width: 200px;
+    min-width: 200px;
+  }
+
+  .row-third-page div {
+    width: 90%;
+  }
+
+  .fourth-page {
+    background-color: #1b1b1b;
+    background-image: none;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 500px;
+  }
+
+  #sixth2-title-fraza {
+    width: 70%;
+    padding-left: 18%;
+  }
+
+  .stundenplan-d>div {
+    width: 170px;
+    height: 100px;
+  }
+
+  .pomeshenia-img {
+    margin: 23px 0 0 35vw;
+    height: 400px;
+    width: 300px;
+  }
+
+  .img-sixth2 {
+    height: 300px;
+  }
+
+  .sixth2-div-img {
+    height: 350px;
+  }
+
+  .div-img-third-page {
+    height: 430px;
+    width: 100px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 35px;
+    top: 10px;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .seventh-page-text1 {
+    width: 80%;
+    margin-right: 20px;
+  }
+
+  #img-girl {
+    width: 0;
+    height: 0;
+  }
+
+  .text-third-page {
+    width: 90%;
+  }
+
+  .row-third-page {
+    align-items: flex-start;
+    margin-left: 6%;
+  }
+
+  .row-third-page div {
+    height: 520px;
+    width: 450px;
+  }
+
+  .box-fourth-page {
+    align-items: flex-start;
+    padding-left: 12%;
+  }
+
+  .img-teachers {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box-fourth-page>div {
+    width: 500px;
+    margin-bottom: 10vh;
+  }
+
+  #pustoi-text {
+    width: 270px;
+    margin: 10% 0 10% 14%;
+  }
+
+  .img-third-page {
+    height: 270px;
+    width: 430px;
+  }
+
+  .first-row {
+    grid-template-columns: 1fr;
+    padding: 10vh 0 0 12.5%;
+  }
+
+  .text-head {
+    width: 70%;
+    margin: 25vh 4% 4% 7%;
+  }
+
+  .button1{
+    margin-left: 25%;
+  }
+
+  .button {
+    margin-top: 12%;
+  }
+
+  .first-row div {
+    width: 90%;
+  }
+
+  #title-fraze-fouth-page {
+    padding: 6% 0 3% 14%;
+  }
+
+  .conteiner-fifth-page>div {
+    width: 95%;
+  }
+
+  .red-title {
+    width: 80%;
+    padding-left: 13%;
+  }
+
+  .box-fourth-page {
+    margin-top: 50px;
+  }
+
+  #title-fraza {
+    width: 55%;
+    padding: 17% 0 0 15%;
+  }
+
+  .conteinereight-page-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .title-fraza-eighth-page {
+    width: 90%;
+    padding-left: 14%;
+  }
+
+  .seventh-page-text1 {
+    width: 60%;
+  }
+
+  .sixth1-page-div-grid>div>img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 400px;
+  }
+
+  .forma-sixth3-page>div>input {
+    width: 80%;
+  }
+
+  .forma-sixth3-page>div>textarea {
+    min-width: 80vw;
+    max-width: 80vw;
+  }
+
+  .input-wrapper input {
+    padding: 2%;
+    width: 70vw;
+  }
+
+  textarea {
+    max-width: 70vw;
+    min-width: 70vw;
+  }
+
+  iframe {
+    height: 200px;
+    width: 70vw;
+    border-radius: 15px;
+  }
+
+  .container {
+    width: 70vw;
+  }
+
+  #footer-logo {
+    margin-left: 0vw;
+  }
+
+  .map {
+    text-align: center;
+    width: 350px;
+    height: 250px;
+  }
+
+  .stundenplan-cont-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stundenplan-d>div {
+    width: 220px;
+    height: 100px;
+  }
+
+  .do,
+  .fr,
+  .sa {
+    margin-top: 0vh;
+  }
+
+  .mi,
+  .do,
+  .fr,
+  .sa {
+    margin-top: 10vh;
+  }
+
+  .img-sixth2 {
+    height: 250px;
+  }
+
+  .pomeshenia-img {
+    margin: 2px 0 0 25vw;
+    height: 400px;
+    width: 300px;
+  }
+
+  .sixth2-div-img {
+    height: 270px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 380px;
+    height: 385px;
+    left: 35px;
+    top: 10px;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .forma-sixth3-page>form>div>input {
+    width: 80%;
+  }
+
+  .forma-sixth3-page>form>div>textarea {
+    min-width: 80vw;
+    max-width: 80vw;
+    min-height: 30vh;
+    max-height: 30vh;
+  }
+
+  .seventh-page-text1 {
+    width: 80%;
+    margin-right: 10px;
+  }
+
+  .page {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../image/marie-mobil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .box-fourth-page>div {
+    width: 330px;
+  }
+
+  .conteinereight-page-grid>div {
+    padding-left: 1vw;
+  }
+
+  .box-fourth-page {
+    align-items: flex-start;
+    padding-left: 13vw;
+  }
+
+  .img-third-page {
+    height: 230px;
+    width: 340px;
+  }
+
+  .row-third-page div {
+    height: 500px;
+    width: 360px;
+  }
+
+  .text-fourth-page {
+    width: 100%;
+  }
+
+  .img-teachers {
+    width: 330px;
+    height: 330px;
+  }
+
+  #title-fraza {
+    width: 70%;
+    padding: 17% 0 0 20%;
+  }
+
+  .name-teachers {
+    -webkit-text-stroke: .4px #ffffff;
+  }
+
+  #pustoi-text {
+    width: 250px;
+    margin: 10% 0 10% 15%;
+  }
+
+  .title-fraza-eighth-page {
+    width: 90%;
+    padding-left: 12%;
+  }
+
+  .links-head {
+    margin-bottom: 2%;
+  }
+
+  .fourth-page {
+    background-image: none;
+    background-color: #1b1b1b;
+  }
+
+  .conteiner-fifth-page {
+    margin: 13vh 5% 5% 10%;
+  }
+
+  #title-fraza-fifth-page {
+    padding: 7vh 0 0 14%;
+  }
+
+  #pustoi-text {
+    -webkit-text-stroke: .3px #000000;
+  }
+
+  .pustoi-text-fifth-page {
+    -webkit-text-stroke: .3px #000000;
+  }
+
+  .map {
+    width: 100px;
+    height: 100px;
+  }
+
+  .eighth-page {
+    padding: 10vh 0vh 7vh 4vh
+  }
+
+  #info-text {
+    font-size: 12px;
+  }
+
+  .text-head {
+    width: 70%;
+    margin: 25vh 4% 4% 7%;
+  }
+
+  .button1{
+    margin-left: 15%;
+  }
+
+  .sixth1-page-div-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sixth1-page-div-grid>div {
+    width: 45vw;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 330px;
+  }
+
+  .stundenplan-d>div {
+    width: 180px;
+    height: 100px;
+  }
+
+  .img-sixth2 {
+    height: 200px;
+  }
+
+  .pomeshenia-img {
+    margin: -12px 0 0 20vw;
+    height: 350px;
+    width: 250px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 40px;
+    top: 15px;
+    z-index: 0;
+  }
+
+  .div-img-third-page {
+    height: 360px;
+    width: 100px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .div-img-third-page {
+    height: 270px;
+    width: 100px;
+  }
+
+  .img-sixth2 {
+    height: 160px;
+  }
+
+  .pomeshenia-img {
+    margin: -5px 0 0 19vw;
+    height: 250px;
+    width: 180px;
+  }
+
+  .sixth2-div-img {
+    height: 180px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 40px;
+    top: 17px;
+    z-index: 0;
+  }
+
+
+  .img-third-page {
+    height: 180px;
+    width: 250px;
+  }
+
+  .row-third-page div {
+    height: auto;
+  }
+
+  .text-fourth-page {
+    width: 90%;
+  }
+
+  #title-fraza-sixth-page {
+    margin-left: 15%;
+  }
+
+  .img-teachers {
+    width: 250px;
+    height: 250px;
+  }
+
+  .text-third-page {
+    width: 70%;
+  }
+
+  .box-fourth-page>div {
+    width: 280px;
+  }
+
+  .girl-fifth-page {
+    width: 210px;
+    margin-top: 170px;
+  }
+
+  #pustoi-text {
+    width: 190px;
+  }
+
+  .girl-fifth-page {
+    position: absolute;
+    margin-left: 43%;
+    width: 0px;
+  }
+
+  .conteiner-fifth-page>div {
+    width: 100%;
+  }
+
+  .conteiner-fifth-page {
+    margin: 20vh 5% 5% 10%;
+  }
+
+  #title-fraza-fifth-page {
+    padding: 10% 0 0 14%;
+  }
+
+  .sixth2-box-for-three-div>div>img {
+    width: 250px;
+  }
+
+  .sixth1-page-div-grid>div>img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .stundenplan-d>div {
+    width: 260px;
+    height: 100px;
+    margin-bottom: 2vh;
+  }
+
+  .stundenplan-cont-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .di,
+  .mi,
+  .do,
+  .fr,
+  .sa {
+    margin-top: 10vh;
+  }
+
+  .stundenplan-cont-grid {
+    margin: 7vh 0 0 4%;
+  }
+
+  #button-sixth2-page {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .img-third-page {
+    height: 150px;
+    width: 210px;
+  }
+
+  .eighth-page {
+    padding: 10vh 0vh 7vh 3vh;
+  }
+
+  .text-third-page {
+    width: 60%;
+  }
+
+  .img-teachers {
+    width: 210px;
+    height: 210px;
+  }
+
+  .text-fourth-page {
+    width: 80%;
+  }
+
+  #title-fraza-sixth-page {
+    font-size: 24px;
+  }
+
+  .title-fraza-eighth-page {
+    width: 0%;
+    padding-left: 0%;
+  }
+
+  #pustoi-text {
+    margin: 10% 0 10% 20%;
+  }
+
+  .text-head {
+    width: 70%;
+    margin: 17vh 4% 4% 7%;
+  }
+
+  .button1{
+    margin-left: 11%;
+    margin-bottom: 2vh;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .container {
+    width: 220px;
+  }
+
+  .stundenplan-d>div {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 2vh;
+  }
+
+  .img-sixth2 {
+    height: 130px;
+  }
+
+  .sixth2-div-img {
+    height: 140px;
+  }
+
+  .pomeshenia-img {
+    margin: -15px 0 0 9vw;
+    height: 220px;
+    width: 160px;
+  }
+
+  .row-third-page div {
+    width: 250px;
+  }
+
+  .red-rect {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 40px;
+    top: 17px;
+    z-index: 0;
+  }
+
+  .div-img-third-page {
+    height: 230px;
+    width: 100px;
+  }
+}
